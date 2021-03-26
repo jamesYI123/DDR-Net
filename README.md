@@ -54,7 +54,7 @@ If apex is installed, you can use sync_bn in training:
 * Set ``CKPT_FILE``  as your checkpoint file, you also can utilize our pretrained model (checkpoints/DDR-Net.ckpt).
 * Test DDR-Net and Fusion: 
 * The method of fusion is optional, including normal fusion and Gipuma fusion.
-* We suggest Gipuma to fusion to provide our results (need to install [fusibile](https://github.com/YoYo000/fusibile)) . the script is borrowed from [MVSNet](https://github.com/YoYo000/MVSNet).  Note that more than 20 GB memory is required for tanks and temples fusion.
+* We suggest Gipuma to fusion to provide our results (need to install [fusibile](https://github.com/YoYo000/fusibile)). the script is borrowed from [MVSNet](https://github.com/YoYo000/MVSNet).  Note that more than 20 GB memory is required for tanks and temples fusion.
 ```
 git clone https://github.com/YoYo000/fusibile
 cd fusibile
@@ -81,3 +81,5 @@ make
 | 54.91  | 76.18  | 53.36   | 43.43  | 55.20	  | 55.57  | 52.28   | 56.04	  | 47.17 |
 
 Please refer to [leaderboard](https://www.tanksandtemples.org/).
+
+if you have any issues, please make an issue or send an email to us (shengkuntang@whu.edu.cn). We will reply as soon as possible.
