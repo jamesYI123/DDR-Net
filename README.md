@@ -63,7 +63,7 @@ cmake..
 make
 ```
 * After installing fusibile, set ``--fusibile_exe_path`` to the place where you install fusibile.
-* Set ``root_path`` as the path of depth map output and ``traget_path`` as the path of point cloud reconstruction.
+* Set ``root_path`` as the path of depth map output and ``target_path`` as the path of point cloud reconstruction.
 
 ```
 ./test.sh
